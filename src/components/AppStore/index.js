@@ -332,6 +332,8 @@ class AppStore extends Component {
     const {searchInput, activeTabId} = this.state
     const searchResults = this.getSearchResults()
     const filteredApps = this.getActiveTabApps(searchResults)
+    const SEARCH_ICON_URL =
+  'https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png'
 
     return (
       <div className="app-container">
